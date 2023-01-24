@@ -6,7 +6,7 @@ export default function RGB() {
   return (
     <>
       <Nav />
-      <div style={{ backgroundColor: `rgb(${r}, ${g}, ${b})` }}>
+      <div className="color-display" style={{ backgroundColor: `rgb(${r}, ${g}, ${b})` }}>
         <h1>
           rgb ({r}, {g}, {b})
         </h1>
