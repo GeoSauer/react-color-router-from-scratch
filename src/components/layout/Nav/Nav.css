@@ -2,28 +2,15 @@
   align-items: center;
   background-color: #246336;
   display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
   height: 3rem;
   justify-content: space-between;
   padding: 0 10%;
 }
 
-.header ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: baseline;
-}
-
-.header li {
-  margin-left: 3rem;
-}
-
 .header a {
   color: beige;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-decoration: none;
 }
 
 .red.active {

@@ -1,10 +1,8 @@
 .color-display {
+  align-items: center;
+  color: #246336;
   display: flex;
+  font-size: 2rem;
   height: 100vh;
   justify-content: center;
-  align-items: center;
-}
-
-.color-display h1 {
-  color: #246336;
 }
