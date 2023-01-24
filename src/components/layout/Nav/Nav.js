@@ -7,7 +7,7 @@ export default function Nav() {
     <header className="header">
       <ul>
         <li>
-          <NavLink exact={true} to="/">
+          <NavLink exact to="/">
             Home
           </NavLink>
         </li>

@@ -3,8 +3,6 @@ import Main from './components/layout/Main/Main';
 import RGB from './components/layout/RGB/RGB';
 import NotFound from './components/layout/NotFound/NotFound';
 
-import './App.css';
-
 function App() {
   return (
     <Switch>
