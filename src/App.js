@@ -10,7 +10,6 @@ function App() {
     <div className="App">
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route exact path="/rgb" component={RGB} />
         <Route path="/rgb/:r/:g/:b" component={RGB} />
         <Route path="*" component={NotFound} />
       </Switch>
