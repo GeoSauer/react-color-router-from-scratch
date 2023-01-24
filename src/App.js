@@ -1,6 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
 import Main from './components/layout/Main';
-import RGB from './components/RGB/RGB';
+import RGB from './components/layout/RGB';
 import NotFound from './components/NotFound/NotFound';
 
 import './App.css';

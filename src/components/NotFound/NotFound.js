@@ -1,12 +1,16 @@
 import gif from '../../giphy.gif';
 import Nav from '../layout/Nav';
 
+import './NotFound.css';
+
 export default function NotFound() {
   return (
     <>
       <Nav />
-      <h1>Route not found!</h1>
-      <img src={gif} />
+      <div className="container">
+        <h1>Route not found!</h1>
+        <img className="gif" src={gif} />
+      </div>
     </>
   );
 }

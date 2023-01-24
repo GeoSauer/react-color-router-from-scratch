@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import Nav from '../layout/Nav';
+import Nav from './Nav';
 
 export default function RGB() {
   const { r, g, b } = useParams();
