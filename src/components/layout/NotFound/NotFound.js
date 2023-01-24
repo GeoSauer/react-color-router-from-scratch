@@ -1,5 +1,5 @@
-import gif from '../../giphy.gif';
-import Nav from '../layout/Nav';
+import gif from '../../../giphy.gif';
+import Nav from '../Nav/Nav';
 
 import './NotFound.css';
 
