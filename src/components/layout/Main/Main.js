@@ -5,7 +5,7 @@ import './Main.css';
 export default function Main() {
   return (
     <main>
-      <h1 className="main-header">Welcome to Color Router!</h1>
+      <h1 className="main-header rainbow-text">Welcome to Color Router!</h1>
       <p className="main-body">
         You can click the links at the top of the page to display a color and its rgb value, or you
         can enter your own into the url. Have fun!
