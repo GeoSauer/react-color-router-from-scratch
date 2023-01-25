@@ -5,6 +5,7 @@ import './RGB.css';
 
 export default function RGB() {
   const { r, g, b } = useParams();
+
   return (
     <>
       <Nav />

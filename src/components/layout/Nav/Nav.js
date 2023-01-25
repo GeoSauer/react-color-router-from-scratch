@@ -3,6 +3,10 @@ import { NavLink } from 'react-router-dom';
 import './Nav.css';
 
 export default function Nav() {
+  const randR = Math.floor(Math.random() * 256);
+  const randG = Math.floor(Math.random() * 256);
+  const randB = Math.floor(Math.random() * 256);
+
   return (
     <header className="header">
       <NavLink exact to="/">
@@ -22,6 +26,9 @@ export default function Nav() {
       </NavLink>
       <NavLink className="canary" to="/rgb/255/246/137">
         Canary
+      </NavLink>
+      <NavLink className="rainbow-text" to={`/rgb/${randR}/${randG}/${randB}`}>
+        Randomize
       </NavLink>
     </header>
   );
