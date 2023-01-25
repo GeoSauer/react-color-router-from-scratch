@@ -1,0 +1,34 @@
+.header {
+  align-items: center;
+  background-color: #246336;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+  height: 3rem;
+  justify-content: space-between;
+  padding: 0 10%;
+}
+
+.header a {
+  color: beige;
+}
+
+.red.active {
+  color: #ec0b43;
+}
+
+.violet.active {
+  color: #58355e;
+}
+
+.aquamarine.active {
+  color: #7ae7c7;
+}
+
+.green.active {
+  color: #d6ffb7;
+}
+
+.canary.active {
+  color: #fff689;
+}
